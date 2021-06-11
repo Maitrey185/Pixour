@@ -1,5 +1,6 @@
 import React from "react";
 import { FaAlignJustify } from "react-icons/fa";
+import { Link } from "react-router-dom";
 const Nav = () => {
   const [state, setState] = React.useState(true);
   return (
@@ -8,6 +9,7 @@ const Nav = () => {
         <div className="navbar__container">
           <ul className="navbar__left">
             <div>
+            
             <h1 style={{color:"#ffffff",textAlign:"left",float:"left"}}>Pixour</h1>
             <h1 style={{color:"#ff0000",textAlign:"right",float:"right"}}>.</h1>
 
@@ -17,16 +19,16 @@ const Nav = () => {
           {state ? (
             <ul className="navbar__right">
               <li>
-                <a href="">Home</a>
+                <a href="#">Home</a>
               </li>
               <li>
-                <a href="">Technology</a>
+                <a href="#tech">Technology</a>
               </li>
               <li>
-                <a href="">Process</a>
+                <a href="#abt">About</a>
               </li>
               <li>
-                <a href="">Examples</a>
+                <a href="#ex">Examples</a>
               </li>
 
             </ul>

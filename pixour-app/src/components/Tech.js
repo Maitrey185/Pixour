@@ -35,7 +35,7 @@ function Tech(){
 
 
   return (
-    <div className="services">
+    <div id="tech" className="services">
       <div className="container">
         <div className="services__header">
           <div className="common">

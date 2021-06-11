@@ -12,8 +12,8 @@ function Home(){
                 <h1 style={{color:"#1F2235"}}>Pixour</h1>
                 <p style={{color:"#1F2235"}}>A deep learning model based on neural style transfer</p>
                 <div className="header__buttons">
-                  <a href="" className="btn btn-outline" style={{color:"#1F2235"}}>
-                    My Portfolio
+                  <a href="https://colab.research.google.com/drive/1uN5gu2ZQhNA6KhRG2XRa31DnfYddsyh4?usp=sharing" className="btn btn-outline" style={{color:"#1F2235"}}>
+                    Open With Colab
                   </a>
                 </div>
               </div>
@@ -21,7 +21,7 @@ function Home(){
           </div>
           <div className="col-6">
             <div className="banner__img">
-              <img src="images/bg1.jpg" className="col-12" alt="man" />
+              <img src="images/bg1.jpg" style={{height:"600px",width:"700px",marginTop:"100px"}}className="col-12" alt="man" />
             </div>
           </div>
         </div>
